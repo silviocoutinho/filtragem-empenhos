@@ -1,0 +1,4 @@
+1 - Renomeie o arquivo csv para dados.csv
+2 - Rode o python3 empenhos.py
+3 - Importe o arquivo gerado dados_para_importar.csv
+4 - Em column names, cole o nome dos campos que esta no arquivo campos para importar

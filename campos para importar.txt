@@ -1,0 +1,1 @@
+numero,tipo,data,ano,descricao,natureza,nome_natureza,dotacao,alteracao_dotacao,dotacao_atual,valor_anulado,valor_empenhado,valor_liquidado,valor_pago,empenhado_ate_hoje,liquidado_ate_hoje,pago_ate_hoje
