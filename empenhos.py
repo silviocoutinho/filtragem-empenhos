@@ -98,7 +98,7 @@ df.drop(["Cód. Forn.", "Reforço", "Local", "Funcional", "Função", "Nome da F
 # In[ ]:
 
 
-df.drop(["Nome da Subfunção", "Fonte", "Fonte de Recurso", "Cód. Fonte", "Código Fonte", "Fonte STN", "Nome Fonte STN"] ,axis=1, inplace=True)
+df.drop(["N° Ficha","Nome da Subfunção", "Fonte", "Fonte de Recurso", "Cód. Fonte", "Código Fonte", "Fonte STN", "Nome Fonte STN"] ,axis=1, inplace=True)
 
 
 # In[ ]:
@@ -284,7 +284,7 @@ df.head()
 # In[ ]:
 
 
-df.to_csv('dados_para_importar_maio2023.csv', header=False, index=False)
+df.to_csv('dados_para_importar_junho2023.csv', header=False, index=False)
 
 
 # In[ ]:
