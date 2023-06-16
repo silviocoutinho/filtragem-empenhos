@@ -88,18 +88,12 @@ df.drop(index=df.index[-1],axis=0,inplace=True)
 
 df.tail()
 
-
-# In[ ]:
-
-
 df.drop(["Cód. Forn.", "Reforço", "Local", "Funcional", "Função", "Nome da Função", "Subfunção"] ,axis=1, inplace=True)
-
-
-# In[ ]:
 
 
 df.drop(["N° Ficha","Nome da Subfunção", "Fonte", "Fonte de Recurso", "Cód. Fonte", "Código Fonte", "Fonte STN", "Nome Fonte STN"] ,axis=1, inplace=True)
 
+df.drop(["Descrição do Cód. de aplicação", "Cód. de aplicação"] ,axis=1, inplace=True)
 
 # In[ ]:
 
